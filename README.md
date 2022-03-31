@@ -1,6 +1,6 @@
-## Important Information: 
-    Group #.....11
-    CRN.........73378
+## Important Information:
+- CRN 73378
+- Group No. 11
     
 ## Authors: 
 - Ahmaad Ansari
