@@ -1,1 +1,8 @@
-# Final-Project-W22-SOFE-2720-G11
+## Important Information: 
+    Group #: 11
+    CRN: 73378
+    
+## Authors: 
+- Ahmaad Ansari
+- Darren Constantine
+- Jason Stuckless
