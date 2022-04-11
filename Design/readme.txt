@@ -1,1 +1,1 @@
-Please download diagram image files for imrpoved readability!
+Please download diagram image files for improved readability!
