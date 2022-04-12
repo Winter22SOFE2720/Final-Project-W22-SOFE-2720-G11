@@ -13,6 +13,6 @@ This project involves the design and development of an E-commerce platform for u
 - Group No. 11
     
 ## Authors: 
-- Ahmaad Ansari         100785574
-- Darren Constantine    100782701
-- Jason Stuckless       100248154
+- Ahmaad Ansari         [100785574]
+- Darren Constantine    [100782701]
+- Jason Stuckless       [100248154]
