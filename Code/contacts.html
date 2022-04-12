@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>ADJ Tech Shop</title>
+		<meta name="decription" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css" type="text/css">
+		<script src="script.js" type="text/javascript"></script>
+	</head>
+
+	<body onClick="exitMenu()">
+		
+		
+		<header>
+			<nav class="navbar">
+				<div class="container">
+					<ul class="nav-left">
+						<li><img id="dropdown" src="images/burger-button-icon.png" alt="dropdown" onClick="toggleMenu()"></li>
+						<li><a class="blank" href=""></a></li>
+						<li><a class="blank" href=""></a></li>
+					</ul>
+					<a href="index.html"><h2 class="title" id="logo">ADJ TECH SHOP</h2></a>
+					<ul class="nav-right">
+						<li><a id="account" href="account.html"><img src="images/user-icon.png" alt="account"></a></li>
+						<li><a id="favourites" href="#"><img src="images/favourites-icon.png" alt="favourites"></a></li>
+						<li><a id="cart" href="#"><img src="images/cart-icon.png" alt="shopping cart">
+								<span class="cart-number">
+									<img src="images/cart-number.png" alt="notification">
+<!--								Change the value below dynamically, maybe use "+" when a certaian number is reached-->
+									<span class="value">0</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			
+			<div class="dropdown-menu" id="dropdown-menu" style="display: none;">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			
+			<div class="banner-content">
+				<img class="logo" src="images/banner-logo.png" alt="logo">
+				<h2>CONTACTS</h2>
+			</div>	
+		</header>
+		
+		
+		<div class="content">
+			<div class="grid">
+				<div class="iframe-container card">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2872.671533611521!2d-78.89897944967433!3d43.94547107900981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d51b9a6af8ae7f%3A0x2a373a19593716f5!2sOntario%20Tech%20University!5e0!3m2!1sen!2sca!4v1637376579908!5m2!1sen!2sca" width="1200px" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+				<section class="flex-container">
+					<div class="flex-left" id="contact-info">
+						<h1>Contact Info</h1>
+						<div class="cell" id="cell1">
+							<h2>
+								<a href="https://www.google.com/maps/place/Ontario+Tech+University/@43.9454749,-78.8989741,17z/data=!3m1!4b1!4m5!3m4!1s0x89d51b9a6af8ae7f:0x2a373a19593716f5!8m2!3d43.9454711!4d-78.8967854">
+									<img class="contact-info-logos" src="images/location-icon.png" alt="location icon">
+								</a>
+								<br>ADDRESS<br>
+								<p>2000 Simcoe St N<br>Oshawa, ON L1G 0C5</p>
+							</h2>
+						</div>
+						<div class="cell" id="cell2">
+							<h2>
+								<img class="contact-info-logos" src="images/phone-icon.png" alt="phone icon">
+								<br>PHONE<br>
+								<p>(905) 721-8668<br>&nbsp;</p>
+							</h2>
+						</div>
+						<div class="cell" id="cell3">
+							<h2>
+								<img class="contact-info-logos" src="images/email-icon.png" alt="email icon">
+								<br>E-MAIL<br>
+								<p>ADJ@techshop.com<br>&nbsp;</p>
+							</h2>
+						</div>
+						<div class="cell" id="cell4">
+							<h2>
+								<img class="contact-info-logos" src="images/time-icon.png" alt="time icon">
+								<br>WORKING HOURS<br>
+								<p>Weekdays: 8am-8pm<br>Weekends: 9am-5pm</p>
+							</h2>
+						</div>
+					</div>
+					<div class="flex-right">
+						<h1>Write to Us</h1>
+						<div class="form">
+							<form action="" class="contact-form" method="POST" onsubmit="return false;">
+								<div>
+									<input type="text" name="name" placeholder="Name" class="contact-form-input" id="name" required />
+								</div>
+								<div>
+									<input type="email" name="email" placeholder="Email" class="contact-form-input" required />
+								</div>
+								<div>
+									<textarea name="message" class="contact-form-input" placeholder="Message" required></textarea>
+								</div>
+								<div>
+									<button type="submit">Send Message</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>			
+			</div>
+		</div>
+		
+		
+		<div class="push"></div>
+		
+		
+		<div class="newsletter" id="subscribe">
+			<h1>Subscribe to our newsletter</h1><br>
+			<p>Sign up to recieve email updates on new product announcments, gift ideas, special promotions, sales, and more.</p>
+			<div class="newsletter-content">
+				<form class="subscription">
+			  		<input type="email" placeholder="Enter your email">
+					<button id="button"><span><img src="images/email-icon-solid.png" alt="email icon"></span></button>
+				</form>
+		 	</div>
+		</div>
+		
+		
+		<footer>
+			<div class="section-1">
+				<h2 class="title"><a href="index.html" id="footer-logo">ADJ TECH SHOP</a></h2>
+				<p>Aliquam erat volutpat. Maecenas vehicula sapien quis erat interdum aliquam non id ante.</p>
+				<p><a href="">Guides</a><span class="tab"></span><a href="">Terms of Use</a><span class="tab"></span><a href="">Privacy Policy</a></p>
+				<p>&#169; 2019 - 2022</p>
+			</div>
+			<div class="section-2">
+				<h2 class="footer-headers">Get Help</h2>
+				<a href=""><p>Order Status</p></a>
+				<a href=""><p>Shipping and Delivery</p></a>
+				<a href=""><p>Payment Options</p></a>
+				<a href="#"><p>Contact Us</p></a>
+			</div>
+			<div class="section-3">
+				<h2 class="footer-headers">About Us</h2>
+				<a href=""><p>Careers</p></a>
+				<a href=""><p>Sustainability</p></a>
+				<a href=""><p>Service</p></a>
+				<a href=""><p>Supply Chains Act</p></a>
+			</div>
+			<div class="section-4">
+				<div>
+					<a href="https://www.facebook.com/ontariotechu/"><img src="images/facebook-icon.png" alt="facebook logo"></a>
+					<a href="https://twitter.com/ontariotech_u"><img src="images/twitter-icon.png" alt="twitter logo"></a>
+					<a href="https://www.youtube.com/c/OntarioTech"><img src="images/google-icon.png" alt="google logo"></a>
+					<a href="https://www.instagram.com/ontariotechu/"><img src="images/instagram-icon.png" alt="instagram logo"></a>
+				</div>
+				<p class="payment-methods">
+					Payment Methods:<br><br>
+					<span>
+						<a href=""><img src="images/paypal-icon.png" alt="paypal logo"></a>
+						<a href=""><img src="images/visa-icon.png" alt="visa logo"></a>
+					</span>
+				</p>
+			</div>
+		</footer>
+		
+		
+	</body>
+</html>
