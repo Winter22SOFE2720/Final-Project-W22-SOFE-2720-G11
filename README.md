@@ -52,7 +52,7 @@ Click [here](https://github.com/Winter22SOFE2720/Final-Project-W22-SOFE-2720-G11
 The final section involves hypothetical testing against a functional online software system. Files include:
 - Test Cases Report (.pdf)
 
-Click [here](https://github.com/Winter22SOFE2720/Final-Project-W22-SOFE-2720-G11/tree/main/Test%20Case) to view the Test Cases folder.
+Click [here](https://github.com/Winter22SOFE2720/Final-Project-W22-SOFE-2720-G11/tree/main/Test%20Cases) to view the Test Cases folder.
 
 ## Important Information:
 - Course: SOFE 2720U
