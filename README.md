@@ -2,14 +2,14 @@
 ## Table of Contents
 - [ADJ TECH SHOP ~ E-commerce Platform](#adj-tech-shop--e-commerce-platform)
   - [Table of Contents](#table-of-contents)
-    - [Project Scope:](#project-scope)
-    - [Requirements:](#requirements)
-    - [Use Cases:](#use-cases)
-    - [Design:](#design)
-    - [Code:](#code)
-    - [Test Cases:](#test-cases)
-  - [Important Information:](#important-information)
-  - [Authors:](#authors)
+    - [Project Scope](#project-scope)
+    - [Requirements](#requirements)
+    - [Use Cases](#use-cases)
+    - [Design](#design)
+    - [Code](#code)
+    - [Test Cases](#test-cases)
+  - [Important Information](#important-information)
+  - [Authors](#authors)
 
 ## Project Scope: 
 This project involves the design and development of an E-commerce platform for use by ADJ, a multinational consumer electronics retailer. Development of an E-commerce platform will bring many benefits to the retailer such as:
