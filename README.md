@@ -8,6 +8,7 @@
     - [Design](#design)
     - [Code](#code)
     - [Test Cases](#test-cases)
+    - [Traceability Matrix](#traceability-matrix)
   - [Important Information](#important-information)
   - [Authors](#authors)
 
@@ -53,6 +54,12 @@ The final section involves hypothetical testing against a functional online soft
 - Test Cases Report (.pdf)
 
 Click [here](https://github.com/Winter22SOFE2720/Final-Project-W22-SOFE-2720-G11/tree/main/Test%20Cases) to view the Test Cases folder.
+
+## Traceability Matrix:
+Traceability matrices are used to document test cases, run them, and observe test results. Below is a link to the traceability matrix generated from the test cases.
+
+Click [here](https://github.com/Winter22SOFE2720/Final-Project-W22-SOFE-2720-G11/blob/main/TraceabilityMatrix.pdf) to view the traceability matrix.
+
 
 ## Important Information:
 - Course: SOFE 2720U
